@@ -116,4 +116,4 @@ sorted_groups.sort(key=len, reverse=True)
 print(" ")
 print(" ")
 for index, value in enumerate(sorted_groups):
-    print("Group: " + str(index) + " ", len(value))
+    print("Group: " + str(index) + " ", value)
